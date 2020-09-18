@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-=======
+
 //Javascript function used on TTN to decode incoming node data
 
->>>>>>> 7c914313f320c517be1b5403d4bebc5f2983ffae
 function Decoder(bytes, port) {
   // Decode an uplink message from a buffer
   // (array) of bytes to an object of fields.
