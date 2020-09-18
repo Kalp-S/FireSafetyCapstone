@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <ImageButton
+        android:id="@+id/ibtnTemperatureLogA"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="112dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:maxWidth="100dp"
+
+        android:maxHeight="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/log"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ImageButton
+        android:id="@+id/ibtnHumidityLogA"
+        android:layout_width="46dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginLeft="288dp"
+        android:layout_marginTop="284dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:maxWidth="100dp"
+
+        android:maxHeight="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/log"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/ivTemperature"
+        android:layout_width="141dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/thermostat"
+
+        app:srcCompat="@drawable/thermostat" />
+
+    <ImageView
+        android:id="@+id/ivHumidity"
+        android:layout_width="141dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="316dp"
+        android:src="@drawable/droplet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        app:srcCompat="@drawable/droplet" />
+
+    <TextView
+        android:id="@+id/tvTemperatureA"
+        android:layout_width="266dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="156dp"
+        android:text="Temperature "
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHumidityA"
+        android:layout_width="166dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="340dp"
+        android:text="Humidity"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

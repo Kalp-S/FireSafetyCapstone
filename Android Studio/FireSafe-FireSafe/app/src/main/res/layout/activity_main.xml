@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_helloWorld"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:layout_editor_absoluteY="-96dp">
+
+    <ImageButton
+        android:id="@+id/ibtnDisconnect"
+        android:layout_width="139dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="372dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:onClick="disconn"
+
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/disconnect" />
+
+    <ImageButton
+        android:id="@+id/ibtnConnect"
+        android:layout_width="111dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="372dp"
+
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:onClick="conn"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/connect" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="160dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="264dp"
+        android:text="Safety Evacuation"
+        android:textColor="#337DB9"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibtnNodeB"
+        android:layout_width="100dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="196dp"
+
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="148dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/node" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="68dp"
+        android:text="Node A: "
+        android:textColor="#337DB9"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibtnNodeA"
+        android:layout_width="102dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="196dp"
+
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="56dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="fitXY"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/node" />
+
+    <ImageButton
+        android:id="@+id/ibtnSafety"
+        android:layout_width="94dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginTop="264dp"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitXY"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/evacuate" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="0dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="407dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="-26dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="725dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="160dp"
+        android:text="Node B: "
+        android:textColor="#337DB9"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

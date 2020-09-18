@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LoRaWAN Fire Sensor</string>
+    <string name="new_activity_notif">new activity notif</string>
+    <string name="click_me">Click me !</string>
+    <string name="enter_desired_mark">enter desired mark: </string>
+    <string name="enter_your_mark">enter desired mark: </string>
+
+</resources>
+
