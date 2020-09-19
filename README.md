@@ -15,6 +15,15 @@ Data Flow Model
   
 
 ## Screenshots:
+  Node-Red Flow #1 (Intake + Preprocessing). We simulated the system with 11 nodes here, which we believe is suitable for a single floor.
+  ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture4.png "Intake and Preprocessing")
+
+
+  Node-Red Flow #2 (Fire processing + ML)
+  ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture5.png "Fire Processing and Machine Learning")
+ 
+ 
+ 
   Application Home Screen
   
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture2.png "Application Home Screen")
