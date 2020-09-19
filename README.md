@@ -1,7 +1,7 @@
 # FireSafetyCapstone
 
 ## Background
-  The Fire Safety system was a 4rth year capstone project. The project was based around improving fire safety measures in high density urban environments, especially in high rise buildings. 
+  The Fire Safety system was a 4th year capstone project. The project was based around improving fire safety measures in high density urban environments, especially in high rise buildings. 
 
 ## What does the project do?
   This project aims to improve fire safety in urban environments by creating a network of nodes connected to a centralized gateway using LoRa protocol, a long range iot communication protocol. In emergency fire situations, date from nodes is fed to a Machine Learning algorithm, which generates an escape route that users can follow.
