@@ -19,7 +19,8 @@ Data Flow Model
   
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture2.png "Application Home Screen")
   
-  Fire Escape Route Screen
+  
+  Safety Evacuation Screen
   
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture3.png "Fire Escape Route")
   
