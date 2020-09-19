@@ -29,7 +29,7 @@ Data Flow Model
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture2.png "Application Home Screen")
   
   
-  Safety Evacuation Screen
+  Safety Evacuation Screen with Machine Learning processed escape route.
   
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture3.png "Fire Escape Route")
   
