@@ -29,7 +29,7 @@ Data Flow Model
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture2.png "Application Home Screen")
   
   
-  Safety Evacuation Screen with Machine Learning processed escape route.
+  Safety Evacuation Screen with Machine Learning processed escape route. In this picture, black dots represent the existance of a node, green dots represent the optimal     escape route overlayed on existing nodes, and fire represents the existance of fire at a node.
   
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture3.png "Fire Escape Route")
   
