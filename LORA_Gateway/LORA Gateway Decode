@@ -1,5 +1,5 @@
 
-//Javascript function used on TTN to decode incoming node data
+//Javascript function used on TTN (The Things Network)/Chirpstack to decode incoming node data
 
 function Decoder(bytes, port) {
   // Decode an uplink message from a buffer
