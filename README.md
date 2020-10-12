@@ -8,6 +8,8 @@
   
  ## How does the project work?
   All nodes on the network transmit sensor data (temperature, CO concentration, relative humidity) to a LoRa gateway in the form of LoRa packets.The LoRa gateway receives LoRa packets, converts them into MQTT packets and forwards MQTT packets to a Node-Red flow, which is used to process the data. The Node-Red flow congregates data from all nodes on the system, and using specific conditions, determines if a fire situation exists or not. In case of a fire, information is forwarded to a machine learning algorithm to generate the best possible escape path for a person. Using an MQTT broker, the escape path information is then forwarded to any number of Android applications, where it is processed and displayed to the user.
+  
+  Machine learning is carried out via a q-learning reinforcement based algorithm which traverses the floorplan and determines the optimal escape route given locations of fire, walls, and exits.
 
 Data Flow Model
 
