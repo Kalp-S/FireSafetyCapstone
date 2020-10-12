@@ -21,7 +21,7 @@ Data Flow Model
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture4.png "Intake and Preprocessing")
 
 
-  Node-Red Flow #2 (Fire processing + ML)
+  Node-Red Flow #2 (Fire processing + ML) The ML block calls a python program which carries out the machine learning and outputs results to console.
   ![alt text](https://raw.githubusercontent.com/Kalp-S/FireSafetyCapstone/master/Pictures/picture5.png "Fire Processing and Machine Learning")
  
  
