@@ -4,9 +4,9 @@ grid = []
 global goal
 actions = ["up", "left", "down", "right"]
 cell_score_min = -0.2
-cell_score_max = 0.2
-filename =  "/home/kalp/Desktop/ML/Q-Maps/custom_map_2.txt"
-ins = open(filename,"r")
+base_dir = os.path.dirname(os.path.abspath(__file__))
+filename = os.environ.get("MAP_PATH", os.path.join(base_dir, "Q-Maps", "custom_map_2.txt"))
+ins = open(filename, "r")
 for line in ins:
     number_strings = line.split()
     numbers = [int(n) for n in number_strings]
